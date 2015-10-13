@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Quafzi
+ * @package     Quafzi_MultilangPdf
+ * @copyright   Copyright (c) 2015 Thomas Birke <magento@netextreme.de>
+ */
+-->
+<config>
+    <modules>
+        <Quafzi_MultilangPdf>
+            <version>1.0.0</version>
+        </Quafzi_MultilangPdf>
+    </modules>
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <order_pdf_invoice>Quafzi_MultilangPdf_Model_Sales_Order_Pdf_Invoice</order_pdf_invoice>
+                    <order_pdf_creditmemo>Quafzi_MultilangPdf_Model_Sales_Order_Pdf_Creditmemo</order_pdf_creditmemo>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+    <default>
+        <quafzi_multilangpdf>
+            <languages>
+                <additional>en_US</additional>
+            </languages>
+        </quafzi_multilangpdf>
+    </default>
+</config>

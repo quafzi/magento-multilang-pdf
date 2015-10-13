@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Quafzi
+ * @package     Quafzi_MultilangPdf
+ * @copyright   Copyright (c) 2015 Thomas Birke <magento@netextreme.de>
+ */
+-->
+<config>
+    <modules>
+        <Quafzi_MultilangPdf>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Quafzi_MultilangPdf>
+    </modules>
+</config>
