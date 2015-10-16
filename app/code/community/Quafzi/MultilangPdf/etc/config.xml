@@ -20,6 +20,11 @@
                     <order_pdf_creditmemo>Quafzi_MultilangPdf_Model_Sales_Order_Pdf_Creditmemo</order_pdf_creditmemo>
                 </rewrite>
             </sales>
+            <invoicepdf>
+                <rewrite>
+                    <pdf_invoice>Quafzi_MultilangPdf_Model_Symmetrics_InvoicePdf_Invoice</pdf_invoice>
+                </rewrite>
+            </invoicepdf>
         </models>
     </global>
     <default>
